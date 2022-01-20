@@ -1,0 +1,23 @@
+@import '../variable.scss';
+.nav-link{
+  font-size: 1.5rem;
+  color:white;
+
+}
+@media screen and (max-width:$phone){
+  .nav-link{
+    font-size: 1rem;
+  }
+}
+
+.nav-link:hover{
+  color:pink;
+}
+
+.logo{
+  font-weight:500;
+}
+
+.logo:hover{
+  color:pink;
+}
