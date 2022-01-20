@@ -8,10 +8,10 @@
 
 .main-title {
   position: absolute;
-  top: 30%;
+  top: 45%;
   left: 50%;
   font-size: 5rem;
-  transform: translate(-50%, -30%);
+  transform: translate(-50%, -50%);
   display:flex;
   flex-direction:column;
   
@@ -24,10 +24,15 @@
 
 @media only screen and (max-width: $phone) {
   strong {
-    font-size: 22px;
+    font-size: 29px;
   }
   .main-title .sub-title{
+    white-space: nowrap;
     font-size: 12px;
     font-style: italic;
   }
+}
+
+.second{
+  top: 45%;
 }

@@ -2,17 +2,19 @@ import './App.scss';
 import './variable.scss'
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import Container from 'react-bootstrap/Container';
-import { Parallax } from 'react-scroll-parallax';
+import { Row, Container } from 'react-bootstrap';
 
 function App() {
   return (
     <Container className="base" fluid>
+      <Row>
         <Navbar />
-        {/* <Parallax className="custom-class" y={[0, 20]} tagOuter="figure"> */}
-						<Header/>
-				{/* </Parallax> */}
-        {/* <div className="content">
+      </Row>
+      <Row>
+        <Header />
+      </Row>
+
+      {/* <div className="content">
           <div className="content-images">
             <div>
               <h4>Switzerland</h4>
