@@ -6,11 +6,9 @@ import ReactPlayer from 'react-player';
 function Player() {
 
     const [playing, setPlaying] = useState(false);
-    const audio = new Audio("../assets/grow-as-we-go.m4a");
 
     onclick = () => {
         setPlaying(!playing);
-        playing ? audio.play() : audio.pause();
     }
 
     const pause = () => (<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-pause-circle-fill play" viewBox="0 0 16 16">
@@ -24,7 +22,7 @@ function Player() {
     return (
         <button type="button" onClick={() => onclick} id="play-button">
             {playing ? pause() : play()}
-            <ReactPlayer className="hide" playing={playing} url='https://www.youtube.com/watch?v=rN9mWjoeuig' />
+            <ReactPlayer className="hide" playing={playing} url='https://soundcloud.com/margaretaalicia/growaswego?si=bf52724242c14de4a45896de0b57bf74&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing' />
         </button>
     );
 }
