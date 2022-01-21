@@ -1,11 +1,5 @@
 @import '../variable.scss';
 
-.container {
-  height: 100vh;
-  // width:100%;
-  // background:black;
-}
-
 .main-title {
   position: absolute;
   top: 45%;
@@ -20,6 +14,15 @@
     font-style: italic;
   }
  
+}
+.images {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  font-size: 5rem;
+  transform: translate(-50%, -50%);
+  // display:flex;
+  // flex-direction:column;
 }
 
 .player{

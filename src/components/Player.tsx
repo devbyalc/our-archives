@@ -22,7 +22,7 @@ function Player() {
     </svg>)
 
     return (
-        <button onClick={() => onclick}>
+        <button type="button" onClick={() => onclick} id="play-button">
             {playing ? pause() : play()}
             <ReactPlayer className="hide" playing={playing} url='https://www.youtube.com/watch?v=rN9mWjoeuig' />
         </button>
