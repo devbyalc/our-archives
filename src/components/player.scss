@@ -8,3 +8,15 @@ button{
     overflow: hidden;
     outline: none;
 }
+
+.play{
+    height: 70px;
+    width: 50;
+}
+
+@media only screen and (max-width: $phone) {
+    .play{
+        height: 45px;
+        width: 30;
+    }
+}
