@@ -1,0 +1,15 @@
+@import '../variable.scss';
+
+.base-second{
+    height:100vh;
+    background:$grey;
+}
+
+
+.card{
+    margin-top:5%;
+    color:black;
+    max-width:80%;
+    max-height: 100%;
+}
+

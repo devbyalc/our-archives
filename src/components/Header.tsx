@@ -1,10 +1,10 @@
-import './header.scss';
+import './Header.scss';
 import { Container, Row } from 'react-bootstrap';
 import Player from './Player'
 
 function Header() {
     return (
-        <Container>
+        <Container fluid className="base">
             <Row className="main-title">
                 <strong>our archives.</strong>
                 <p className="sub-title">"When you're high, I'll take the lows.<br />

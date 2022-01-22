@@ -2,43 +2,23 @@ import './App.scss';
 import './variable.scss'
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import { Row, Container } from 'react-bootstrap';
+import Content from './components/Content';
+import { Stack } from 'react-bootstrap';
+import {useState} from'react';
 
 function App() {
+  const [tabKey, setKey] = useState('1');
+  
+  // tab navigation
+  const getKey = (key:any) => {
+    setKey(key);
+  }
   return (
-    <Container className="base" fluid>
-      <Row>
-        <Navbar />
-      </Row>
-      <Row>
-        <Header />
-      </Row>
-
-      {/* <div className="content">
-          <div className="content-images">
-            <div>
-              <h4>Switzerland</h4>
-              <h3>Mountains of tibidabo</h3>
-            </div>
-            <div>
-              <h4>Switzerland</h4>
-              <h3>Mountains of tibidabo</h3>
-            </div>
-          </div>
-          <p className="text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere neque
-            consequuntur a nisi, illo quia cupiditate fuga et eos minima
-            voluptatum cum dolorum quas repellat eaque beatae vitae veritatis
-            quae.
-          </p>
-          <p className="text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere neque
-            consequuntur a nisi, illo quia cupiditate fuga et eos minima
-            voluptatum cum dolorum quas repellat eaque beatae vitae veritatis
-            quae.
-          </p>
-        </div> */}
-    </Container>
+    <Stack>
+      <Navbar getTabKey={getKey} />
+      <Header/>
+      <Content tab={tabKey} getTabKey={getKey}/>
+    </Stack>
   );
 }
 

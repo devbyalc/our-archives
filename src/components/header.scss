@@ -1,5 +1,10 @@
 @import '../variable.scss';
 
+.base{
+  height:100vh;
+  background: black;
+}
+
 .main-title {
   position: absolute;
   top: 45%;
