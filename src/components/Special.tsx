@@ -40,7 +40,7 @@ function Special() {
                         className="video"
                         url="https://www.youtube.com/watch?v=Jj3Caf8WIdY"
                         width="100%"
-                        height={width > 600 ? "50vh": "100%"}
+                        height={width > 600 ? "50vh": "30vh"}
 
                     />
                     <Card.Body>

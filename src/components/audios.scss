@@ -1,0 +1,44 @@
+@import "../variable.scss";
+
+@media only screen and (max-width: $phone) {
+  .audios{
+    .row{
+      margin-top: 10%;
+    }
+  }
+
+  .list-group{
+    font-size: 1rem;
+  }
+}
+
+.audios{
+  .row{
+    margin-top: 30px;
+  }
+}
+
+.sub{
+  text-align: center;
+  color:$pink;
+  border-bottom: 1px solid pink;
+}
+
+.list-group{
+  font-size: 22px;
+  border: 2px solid $pink;
+  padding:0;
+  .list-group-item{
+    color:white;
+    background-color: $grey;
+  }
+  .list-group-item:hover{
+    background-color: $pink;
+    color:$grey;
+  }
+  .list-group-item:active{
+    background-color: $pink;
+    color:$grey;
+  }
+}
+
