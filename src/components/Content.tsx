@@ -1,4 +1,4 @@
-import './Content.scss';
+import './content.scss';
 import { Container, Tabs, Tab } from 'react-bootstrap';
 import Special from './Special';
 

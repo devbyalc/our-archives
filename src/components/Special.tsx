@@ -1,4 +1,4 @@
-import './Special.scss';
+import './special.scss';
 import { Container, Row, Card } from 'react-bootstrap';
 import ReactPlayer from 'react-player';
 
@@ -6,18 +6,25 @@ import ReactPlayer from 'react-player';
 function Special() {
     return (
         <Container className="base-second" fluid>
+            <Row><h2>Today's Special</h2></Row>
             <Row className="justify-content-center">
                 <Card className="card-video">
-                    <Card.Header><ReactPlayer
+                    <ReactPlayer
                         className="video"
                         url="https://www.youtube.com/watch?v=Jj3Caf8WIdY"
                         width='100%'
-                    /></Card.Header>
+                    />
                     <Card.Body>
-                        <Card.Title>When in doubts!</Card.Title>
+                        <Card.Title>Count on Me</Card.Title>
+                        <hr/>
                         <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
+                            I want you to know...<br/>
+                            If you ever find yourself stuck in the middle of the sea
+                            I'll sail the world to find you, <br/>
+                            If you tossin' and you're turnin' and you just can't fall asleep
+                            I'll sing a song beside you,<br/>
+                            And if you ever forget how much you really mean to me
+                            Every day I will remind you..
                         </Card.Text>
                     </Card.Body>
                 </Card>

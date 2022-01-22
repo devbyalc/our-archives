@@ -1,4 +1,4 @@
-import './Player.scss';
+import './player.scss';
 import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
 

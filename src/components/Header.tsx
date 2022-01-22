@@ -1,4 +1,4 @@
-import './Header.scss';
+import './header.scss';
 import { Container, Row } from 'react-bootstrap';
 import Player from './Player'
 

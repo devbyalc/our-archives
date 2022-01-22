@@ -1,4 +1,4 @@
-import './Navbar.scss';
+import './navbar.scss';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import { NavDropdown } from 'react-bootstrap';
