@@ -4,9 +4,10 @@ import Container from 'react-bootstrap/Container';
 import { NavDropdown } from 'react-bootstrap';
 
 function Navbar(props:any) {
-
+    
     const onTrigger = (num:string, e?:any) => {
         props.getTabKey(num);
+      
     }
     return (
         <Container>

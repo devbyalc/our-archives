@@ -7,7 +7,7 @@ function Content(props:any) {
         props.getTabKey(num);
     }
     return (
-        <Container className="base-second" fluid>
+        <Container className="base-second" id="content" fluid>
             <Tabs
                 id="controlled-tab-example"
                 activeKey={props.tab}
