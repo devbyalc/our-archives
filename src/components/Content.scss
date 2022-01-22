@@ -3,11 +3,17 @@
 .base-second{
     height:100vh;
     background:$grey;
-    padding: 10px;
 }
 
 @media only screen and (max-width: $phone) {
     .base-second{
      height:100vh;
     } 
+    .wrapper{
+        .nav-link{
+            font-size: 12px;
+        }
+     }
  } 
+
+ 

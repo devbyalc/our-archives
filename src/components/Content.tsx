@@ -12,7 +12,7 @@ function Content(props:any) {
                 id="controlled-tab-example"
                 activeKey={props.tab}
                 onSelect={(e) => onTrigger(e)}
-                className="mb-3"
+                className="wrapper"
             >
                 <Tab eventKey="1" title="On Special">
                     <Special/>
