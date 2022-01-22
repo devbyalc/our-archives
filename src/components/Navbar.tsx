@@ -7,7 +7,7 @@ function Navbar(props: any) {
 
     const onTrigger = (num: string, e?: any) => {
         props.getTabKey(num);
-        document.getElementById('content')?.scrollIntoView();
+        document.getElementById('content')?.scrollIntoView({behavior:'smooth'});
     }
 
     return (

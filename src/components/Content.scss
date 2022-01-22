@@ -3,13 +3,11 @@
 .base-second{
     height:100vh;
     background:$grey;
+    padding: 10px;
 }
 
-
-.card{
-    margin-top:5%;
-    color:black;
-    max-width:80%;
-    max-height: 100%;
-}
-
+@media only screen and (max-width: $phone) {
+    .base-second{
+     height:100vh;
+    } 
+ } 

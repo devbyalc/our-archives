@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 
 function Special() {
     return (
-        <Container className="base-second" fluid>
+        <Container fluid>
             <Row><h2>Today's Special</h2></Row>
             <Row className="justify-content-center">
                 <Card className="card-video">

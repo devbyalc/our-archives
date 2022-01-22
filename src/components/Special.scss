@@ -1,15 +1,15 @@
 @import '../variable.scss';
 
-.base-second{
-    height:95vh;
-    background:$grey;
-    padding: 10px;
-}
-@media only screen and (max-width: $phone) {
-   .base-second{
-    height:100vh;
-   } 
-}
+// .base-second{
+//     height:95vh;
+//     background:$grey;
+//     padding: 10px;
+// }
+// @media only screen and (max-width: $phone) {
+//    .base-second{
+//     height:100vh;
+//    } 
+// }
 
 .card{
     margin-top:15px;
