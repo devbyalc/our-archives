@@ -2,8 +2,6 @@ import './youtube.scss';
 import { Container, Row, ListGroup } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
 import videos from '../assets/videos.json';
-import ReactPlayer from 'react-player';
-
 
 function Youtube() {
   const [vid, setVideo] = useState({ title: "Near or Far", url: "https://www.youtube.com/embed/Jj3Caf8WIdY" });
@@ -39,12 +37,6 @@ function Youtube() {
   return (
     <Container className="youtube" fluid>
       <Row>
-        {/* <ReactPlayer
-                        url={vid.url}
-                        width="100%"
-                        height={width > 600 ? "50vh": "30vh"}
-
-                    /> */}
         <iframe 
         width="100%" 
         height={width > 600 ? 500: 300} 
