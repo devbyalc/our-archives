@@ -4,13 +4,8 @@
   color:white;
 
 }
-@media screen and (max-width:$phone){
-  .nav-link{
-    font-size: 1rem;
-  }
-}
 
-.nav-link:hover{
+.nav-link:hover, .nav-link:active, .nav-link:focus{
   color:#ffc0cb;
 }
 
@@ -20,4 +15,30 @@
 
 .logo:hover{
   color:pink;
+}
+
+.dropdown-toggle::after {
+  display: none; 
+}
+
+.dropdown-menu{
+  font-size: 1.2rem;
+  background-color: $grey;
+  color:$pink;
+  .dropdown-item{
+    color:white;
+  }
+  .dropdown-item:hover{
+    background-color: transparent;
+    color:$pink;
+  }
+}
+
+@media screen and (max-width:$phone){
+  .nav-link{
+    font-size: 1rem;
+  }
+  .dropdown-menu{
+    font-size: small;
+  }
 }
