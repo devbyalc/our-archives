@@ -17,7 +17,7 @@ function Content(props:any) {
     const [error, setError] = useState(false);
     const getUser = (u: User) =>{
         setUser(u);
-        if(u?.username?.toLowerCase() != 'whitney' || u?.password?.toLowerCase() != 'thepooh')
+        if(u?.username?.toLowerCase() !== 'whitney' || u?.password?.toLowerCase() !== 'thepooh')
         {
             setError(true);
             setTimeout(()=>setError(false),3000);
