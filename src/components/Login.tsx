@@ -12,7 +12,7 @@ function Login(props: any) {
 
     const handleChange = (event: any) => {
         let target = event.target.name;
-        target == 'name' ? setUsername(event.target.value) : setPassword(event.target.value);
+        target === 'name' ? setUsername(event.target.value) : setPassword(event.target.value);
     }
 
     return (

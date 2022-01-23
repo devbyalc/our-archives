@@ -3,8 +3,8 @@ import { Container, Tabs, Tab, Alert} from 'react-bootstrap';
 import Special from './Special';
 import Audios from './Audios';
 import Youtube from './Youtube';
-import {useState, useEffect} from 'react';
-import Login from './Modal/Login';
+import {useState} from 'react';
+import Login from './Login';
 
 type User ={username:string, password:string};
 
