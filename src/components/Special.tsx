@@ -38,22 +38,23 @@ function Special() {
                 <Card className="card-video">
                     <ReactPlayer
                         className="video"
-                        url="https://www.youtube.com/watch?v=Jj3Caf8WIdY"
+                        url="https://soundcloud.com/margaretaalicia/count-on-me?si=596fe3c99d4243e49b561ec6d3ba3479&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
                         width="100%"
-                        height={width > 600 ? "50vh": "30vh"}
+                        height="50"
 
                     />
                     <Card.Body>
                         <Card.Title>Count on Me</Card.Title>
                         <hr/>
                         <Card.Text>
-                            I want you to know...<br/>
+                            I want you to know that,<br/>
                             If you ever find yourself stuck in the middle of the sea
-                            I'll sail the world to find you, <br/>
+                            I'll sail the world to find you. <br/>
                             If you tossin' and you're turnin' and you just can't fall asleep
                             I'll sing a song beside you,<br/>
                             And if you ever forget how much you really mean to me
-                            Every day I will remind you..
+                            Every day I will remind you.
+                            <br/>#onlyYouCanHandleMyCheesiness #dontbesick #pls #eatwell #restwell #143
                         </Card.Text>
                     </Card.Body>
                 </Card>
