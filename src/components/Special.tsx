@@ -1,35 +1,35 @@
 import './special.scss';
 import { Container, Row, Card } from 'react-bootstrap';
 import ReactPlayer from 'react-player';
-import {useState, useEffect} from 'react';
+// import {useState, useEffect} from 'react';
 
 
 function Special() {
 
-    const getWindowDimensions = () =>{
-        const { innerWidth: width, innerHeight: height } = window;
-        return {
-          width,
-          height
-        };
-    }
+    // const getWindowDimensions = () =>{
+    //     const { innerWidth: width, innerHeight: height } = window;
+    //     return {
+    //       width,
+    //       height
+    //     };
+    // }
 
-    const useWindowDimensions = () => {
-        const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+    // const useWindowDimensions = () => {
+    //     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
       
-        useEffect(() => {
-          function handleResize() {
-            setWindowDimensions(getWindowDimensions());
-          }
+    //     useEffect(() => {
+    //       function handleResize() {
+    //         setWindowDimensions(getWindowDimensions());
+    //       }
       
-          window.addEventListener('resize', handleResize);
-          return () => window.removeEventListener('resize', handleResize);
-        }, []);
+    //       window.addEventListener('resize', handleResize);
+    //       return () => window.removeEventListener('resize', handleResize);
+    //     }, []);
       
-        return windowDimensions;
-      }
+    //     return windowDimensions;
+    //   }
 
-      const { width } = useWindowDimensions();
+    //   const { width } = useWindowDimensions();
       
     return (
         <Container className="special" fluid>
@@ -52,9 +52,9 @@ function Special() {
                             I'll sail the world to find you. <br/>
                             If you tossin' and you're turnin' and you just can't fall asleep
                             I'll sing a song beside you,<br/>
-                            And if you ever forget how much you really mean to me
-                            Every day I will remind you.
-                            <br/>#onlyYouCanHandleMyCheesiness #dontbesick #pls #eatwell #restwell #143
+                            <em>And if you ever forget how much you really mean to me, <br/>
+                            Every day I will remind you.</em>
+                            <br/>#WhitneyOnlyYouCanHandleMyCheesiness #dontbesick #pls #eatwell #restwell #143
                         </Card.Text>
                     </Card.Body>
                 </Card>
