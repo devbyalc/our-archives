@@ -1,7 +1,7 @@
 import './special.scss';
 import { Container, Row, Card } from 'react-bootstrap';
 import ReactPlayer from 'react-player';
-// import {useState, useEffect} from 'react';
+import image from '../assets/pic.png'
 
 
 function Special() {
@@ -36,11 +36,12 @@ function Special() {
             <Row><h2>Today's Special</h2></Row>
             <Row className="justify-content-center">
                 <Card className="card-video">
+                    <Card.Img variant="top" src={image}></Card.Img>
                     <ReactPlayer
                         className="video"
                         url="https://soundcloud.com/margaretaalicia/count-on-me?si=596fe3c99d4243e49b561ec6d3ba3479&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
                         width="100%"
-                        height="50"
+                        height="40"
 
                     />
                     <Card.Body>
