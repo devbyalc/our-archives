@@ -37,13 +37,7 @@ function Special() {
             <Row className="justify-content-center">
                 <Card className="card-video">
                     <Card.Img variant="top" src={image}></Card.Img>
-                    <ReactPlayer
-                        className="video"
-                        url="https://soundcloud.com/margaretaalicia/count-on-me?si=596fe3c99d4243e49b561ec6d3ba3479&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-                        width="100%"
-                        height="40"
 
-                    />
                     <Card.Body>
                         <Card.Title>Count on Me</Card.Title>
                         <hr/>
@@ -57,6 +51,14 @@ function Special() {
                             Every day I will remind you.</em>
                             <br/>#WhitneyOnlyYouCanHandleMyCheesiness #dontbesick #pls #eatwell #restwell #143
                         </Card.Text>
+                    </Card.Body>
+                    <Card.Body>
+                    <ReactPlayer
+                        className="video"
+                        url="https://soundcloud.com/margaretaalicia/count-on-me?si=596fe3c99d4243e49b561ec6d3ba3479&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                        width="100%"
+                        height="30"
+                    />
                     </Card.Body>
                 </Card>
             </Row>
