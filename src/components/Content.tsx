@@ -46,7 +46,7 @@ function Content(props: any) {
         headers: {
           "Content-Type": "application/json",
           // Authenticate the request
-          Authorization: "Bearer h5QLePvQVG76fI-jvfWLMDec_p_HYMvejJ85LNGKbYI",
+          Authorization: `Bearer ${process.env.REACT_APP_API_KEY}`,
         },
         // send the GraphQL query
         body: JSON.stringify({ query }),
