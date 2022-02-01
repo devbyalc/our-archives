@@ -41,7 +41,7 @@ function Content(props: any) {
 
   useEffect(() => {
     window
-      .fetch(`https://graphql.contentful.com/content/v1/spaces/34a2h56f97xn/`, {
+      .fetch(`https://graphql.contentful.com/content/v1/spaces/${process.env.REACT_APP_SPACE_ID}/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
