@@ -55,6 +55,10 @@ function Special() {
                             And if you ever forget how much you really mean to me
                             Every day I will remind you.
                             <br/>#onlyYouCanHandleMyCheesiness #dontbesick #pls #eatwell #restwell #143
+                            <br/> chances are that you won't ever read this, but if you are reading this and thought of me.. <br/> 
+                            I never need you to do anything for me.. all I ever want is for you to be present. <br/>
+                            I enjoy spending time with you. miss you. Feels like I'm losing a part of me.
+
                         </Card.Text>
                     </Card.Body>
                 </Card>
