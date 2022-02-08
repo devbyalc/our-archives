@@ -1,11 +1,11 @@
 import './youtube.scss';
 import { Container, Row, ListGroup } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
-import videos from '../assets/videos.json';
+import type {Media} from '../types/main';
 
-function Youtube() {
-  const [vid, setVideo] = useState({ title: "Near or Far", url: "https://www.youtube.com/embed/Jj3Caf8WIdY" });
-  const vidList = videos.videos;
+function Youtube(props:any) {
+  const [vid, setVideo] = useState({ title: "Near or Far", url: "https://www.youtube.com/embed/ynXk3mlF1Yw" });
+  const vidList = props.videos;
   const onSelect = (s: any) => {
     setVideo({ title: s.title, url: s.url });
   }
@@ -49,7 +49,7 @@ function Youtube() {
       <Row className='list'>
         <ListGroup>
           <ListGroup.Item className="sub" key="s-title" disabled>Covers</ListGroup.Item>
-          {vidList.map((s) =>
+          {vidList?.map((s:Media) =>
             <ListGroup.Item key={s.id} action onClick={(e) => onSelect(s)} >{s.title}</ListGroup.Item>)
           }
         </ListGroup>
