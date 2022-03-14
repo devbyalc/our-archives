@@ -42,15 +42,8 @@ function Special() {
                         <Card.Title>Count on Me</Card.Title>
                         <hr/>
                         <Card.Text>
-                            I want you to know that,<br/>
-                            If you ever find yourself stuck in the middle of the sea
-                            I'll sail the world to find you. <br/>
-                            <em>And if you ever forget how much you really mean to me, <br/>
-                            Every day I will remind you.</em>
-                            <br/> Chances are that you won't ever read this, but if you are reading this and thought of me.. <br/> 
-                            Please know, I never need you to do anything for me.. all I ever want is for you to be present. <br/>
-                            I just want to spend time with you. miss you. Feels like I'm losing a part of me.
-                            <br/>#WhitneyOnlyYouCanHandleMyCheesiness #dontbesick #pls #eatwell #restwell #143
+                            Thank you for everything.
+                            I know where I stand now..
                         </Card.Text>
                     </Card.Body>
                     <Card.Body>
